@@ -14,3 +14,12 @@ sudo usermod -aG docker $USER
 newgrp docker
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
+
+
+# Python
+yay -S python39
+# Rust
+curl https://sh.rustup.rs -sSf | sh
+
+mkdir ~/Projects
+
