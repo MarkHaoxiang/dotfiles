@@ -1,2 +1,2 @@
 . "$HOME/.cargo/env"
-export MOZ_ENABLE_WAYLAND=1
+MOZ_ENABLE_WAYLAND=1

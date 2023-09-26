@@ -88,3 +88,5 @@ _open_files_for_editing() {
 alias vi=vim
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 . "$HOME/.cargo/env"
+
+export EDITOR=vim

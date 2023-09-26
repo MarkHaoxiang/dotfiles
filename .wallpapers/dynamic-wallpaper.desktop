@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=DynamicWallpaper
+Exec=/usr/bin/python /home/markhaoxiang/.wallpapers/dynamic_wallpaper.py /home/markhaoxiang/.wallpapers/lakeside
+
