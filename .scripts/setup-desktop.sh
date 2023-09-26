@@ -5,3 +5,6 @@ sudo systemctl -f enable gdm
 
 # Remove xfce
 sudo pacman -Rs xfce4 xfce4-goodies xfce4-datetime-plugin endeavouros-xfce4-terminal-colors
+
+yay -S gnome-terminal
+sudo yay -Rs galculator gnome-console gnome-characters

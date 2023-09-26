@@ -5,7 +5,7 @@ sudo locale-gen
 
 yay -S adobe-source-han-sans-cn-fonts electronic-wechat-uos-bin ibus-pinyin
 
-sudo echo "GTK_IM_MODULE=ibus \n" >> /etc/environment
-sudo echo "QT_IM_MODULE=ibus \n" >> /etc/environment
-sudo echo "XMODIFIERS=@im=ibus \n" >> /etc/environment
+sudo echo "GTK_IM_MODULE=ibus" >> /etc/environment
+sudo echo "QT_IM_MODULE=ibus" >> /etc/environment
+sudo echo "XMODIFIERS=@im=ibus" >> /etc/environment
 

@@ -4,7 +4,7 @@ git config --global user.email "mark.haoxiang@gmail.com"
 git config --global user.name "MarkHaoxiang"
 
 # Essentials
-yay -S vim visual-studio-code-bin surfshark-client p7zip bitwarden cronie
+yay -S vim visual-studio-code-bin surfshark-client p7zip bitwarden cronie github-cli
 sudo systemctl enable cronie.service --now
 # Docker
 yay -S docker
