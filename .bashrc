@@ -90,3 +90,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 . "$HOME/.cargo/env"
 
 export EDITOR=vim
+export PATH="/home/markhaoxiang/.local/bin:$PATH"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/markhaoxiang/.mujoco/mujoco210/bin
