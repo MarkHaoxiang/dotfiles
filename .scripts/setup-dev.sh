@@ -6,7 +6,7 @@ git config --global user.name "MarkHaoxiang"
 # Essentials
 yay -S vim visual-studio-code-bin surfshark-client p7zip bitwarden cronie github cli
 	# Latex
-yay -S texlive-latexrecommended texlive-latexextra
+yay -S texlive-latexrecommended texlive-latexextra texlive-binextra
 sudo systemctl enable cronie.service --now
 # Docker
 yay -S docker docker-compose
