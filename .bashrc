@@ -93,3 +93,8 @@ export EDITOR=vim
 export PATH="/home/markhaoxiang/.local/bin:$PATH"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/markhaoxiang/.mujoco/mujoco210/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
+
+export QUANTIFY_DATABASE_URI=mongodb://localhost:27017
+
+source /opt/ros/humble/setup.bash
+export ROS_DOMAIN_ID=44
